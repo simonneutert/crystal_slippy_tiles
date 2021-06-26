@@ -1,7 +1,10 @@
 # slippy_tiles
 
-TODO: Write a description here
+Crystal implementation of the Slippy Map Tilenames
 
+https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames
+
+you can wrap this in a [kemal](https://kemalcr.com) project (or any other webservice / FaaS project) and use this for your tile based project 🔮 🚀
 ## Installation
 
 1. Add the dependency to your `shard.yml`:
