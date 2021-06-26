@@ -1,0 +1,9 @@
+name: slippy_tiles
+version: 0.1.0
+
+authors:
+  - Simon Neutert <simonneutert@users.noreply.github.com>
+
+crystal: 1.0.0
+
+license: MIT
