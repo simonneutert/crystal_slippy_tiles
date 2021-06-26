@@ -11,7 +11,7 @@ you can wrap this in a [kemal](https://kemalcr.com) project (or any other webser
 
    ```yaml
    dependencies:
-     slippy_0tiles:
+     slippy_tiles:
        github: simonneutert/slippy_tiles
    ```
 
