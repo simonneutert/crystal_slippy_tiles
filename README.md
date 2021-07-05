@@ -22,10 +22,12 @@ you can wrap this in a [kemal](https://kemalcr.com) project (or any other webser
 ```crystal
 require "slippy_tiles"
 
+# latitude, longitude, zoom
 tile = SlippyTiles.get_tile_number(50.0, 8.0, 14)
 puts tile[:x] #=> 8556
 puts tile[:y] #=> 5556
 
+# tile_x, tile_y, zoom
 geo = SlippyTiles.get_lat_lng_for_number(8556, 5556, 14) 
 puts geo[:lat_deg].round #=> 50.0
 puts geo[:lng_deg].round #=> 8.0
